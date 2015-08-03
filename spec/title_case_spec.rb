@@ -20,4 +20,9 @@ describe String do
     expect('2 of the first day of class'.title_case)
       .to eq('2 Of the First Day of Class')
   end
+
+  it "all caps converts to proper capitalize" do
+    expect('IN IN THE BEGINNING'.title_case)
+      .to eq('In In the Beginning')
+  end
 end

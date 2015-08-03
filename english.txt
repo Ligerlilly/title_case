@@ -3,4 +3,8 @@ when string calls title_case method it returns
   capitalized version of itself
 
 
- 
+Behavior: it capitilizes each word in a multi-word string
+
+Behavior: makes all caps capitalize properly
+input: "IN IN THE BEGINNING"
+output: "In in the Beginning"
