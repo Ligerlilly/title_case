@@ -1,0 +1,6 @@
+
+when string calls title_case method it returns
+  capitalized version of itself
+
+
+ 
