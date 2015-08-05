@@ -9,6 +9,6 @@ describe('the scrabble score path', {:type => :feature}) do
     click_link 'Scrabble Score'
     fill_in 'word', with: 'a'
     click_button 'Send'
-    expect (page).to have_content 1
+    expect(page).to have_content 1
   end
 end
